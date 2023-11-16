@@ -1,0 +1,9 @@
+:root{
+    --corDeFundo:#EBECEE;
+    --laranjaPrincipal: #EB9B00;
+    --brancoPrincipal: #FFFFFF;
+}
+
+body{
+    background-color: var(--corDeFundo);
+}
