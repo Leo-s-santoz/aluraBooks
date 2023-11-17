@@ -1,0 +1,50 @@
+.cabecalho{
+    background-color: var(--brancoPrincipal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.cabecalhoMenuHamburguer{
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    padding-left: 1em;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.containerBotao{
+    display: none;
+}
+.containerBotao:checked ~ .listaMenu{
+    display: block;
+}
+.containerImagem{
+    padding: 1em;
+}
+.listaMenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 70vw;
+}
+.listaMenuTitulo{
+    color: var(--amareloPrincipal);
+    font-weight: 700;
+}
+.listaMenuLink{
+    text-decoration: none;
+    background: var(--azulDegrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.listaMenuTitulo, .listaMenuItem{
+    background-color: var(--brancoPrincipal);
+    padding: 1em;
+}

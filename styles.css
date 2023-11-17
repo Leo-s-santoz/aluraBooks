@@ -1,9 +1,17 @@
+@import url("styles/header.css");
+
+
 :root{
+    --fontePrincipal:"poppins";
     --corDeFundo:#EBECEE;
-    --laranjaPrincipal: #EB9B00;
+    --amareloPrincipal: #EB9B00;
     --brancoPrincipal: #FFFFFF;
+    --azulDegrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
 body{
     background-color: var(--corDeFundo);
+    font-family: var(--fontePrincipal);
+    font-size: 16px;
+    font-weight: 400;
 }
