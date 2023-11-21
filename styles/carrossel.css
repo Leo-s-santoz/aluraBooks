@@ -37,12 +37,13 @@
     font-weight: 700;
     font-size: 18px;
     color: var(--azulEscuro);
-    margin: 0.5em 0;
+    margin: 1em 0;
 }
 .descricaoTexto{
     font-size: 14px;
     color: var(--preto);
     opacity: 80%;
+    padding-right: 0.5em ;
 }
 .cardBotoes{
     display: flex;
@@ -57,10 +58,32 @@
 .botoesItem{
     margin: 0 0.5em;
 }
+#coracao{
+    display: none;
+}
+#coracao:checked + label > svg{
+    animation: preencher;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes preencher{
+    0%{
+        fill: transparent;
+    }
+    100%{
+        fill: var(--azulEscuro);
+    }
+}
 .botoesAncora{
     color: var(--brancoPrincipal);
     background-color: var(--amareloPrincipal);
     text-decoration: none;
     font-weight: 700;
     padding: 1em 2.26em;
+}
+.estrelas{
+    margin: 0.5em 0;
+}
+.imagemEscritora{
+    margin-left: 0.4em;
 }
