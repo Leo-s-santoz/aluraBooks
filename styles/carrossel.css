@@ -17,3 +17,50 @@
     margin: 0.3em 0 0.7em 0;
     position: initial;
 }
+.card{
+    background-color: var(--brancoPrincipal);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+.cardDescricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.descricaoTitulo{
+    font-weight: 700;
+    color: var(--amareloPrincipal);
+}
+.descricaoTituloLivro{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--azulEscuro);
+    margin: 0.5em 0;
+}
+.descricaoTexto{
+    font-size: 14px;
+    color: var(--preto);
+    opacity: 80%;
+}
+.cardBotoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.botoesItem{
+    margin: 0 0.5em;
+}
+.botoesAncora{
+    color: var(--brancoPrincipal);
+    background-color: var(--amareloPrincipal);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1em 2.26em;
+}
