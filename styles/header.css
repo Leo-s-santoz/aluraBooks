@@ -48,3 +48,44 @@
     background-color: var(--brancoPrincipal);
     padding: 1em;
 }
+.containerTitulo{
+    display: none;
+}
+.opcoes{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalhoMenuHamburguer{
+        display: none;
+    }
+    .containerTitulo,
+    .containerTituloNegrito {
+        font-family: var(--fonteSecundaria);
+        font-size: 30px;
+    }
+    .containerTitulo{
+        font-weight: 400;
+        display: block;
+    }
+    .containerTituloNegrito{
+        font-weight: 700;
+    }
+    .opcoes{
+        display: flex;
+        align-items: center;
+    }
+    .opcoesItem{
+        padding: 1em;
+    }
+    .opcoesLink{
+        text-decoration: none;
+        color: var(--preto);
+    }
+    .containerImagem{
+        padding-right: 2.5em;
+    }
+    .containerImagemTransparente{
+        display: none;
+    }
+}
