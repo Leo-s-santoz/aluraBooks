@@ -88,4 +88,11 @@
     .containerImagemTransparente{
         display: none;
     }
+    .opcoesBotao:checked ~ .listaMenu{
+        display: block;
+        width: auto;
+    }
+    .opcoesBotao{
+        display: none;
+    }
 }
